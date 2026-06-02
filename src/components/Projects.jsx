@@ -14,6 +14,25 @@ const PROJECTS = [
     code: "https://github.com/akashgupta0123",
   },
   {
+  title: "🛡️ CodeGuardian",
+  category: "AI Full Stack Project",
+  desc: "An AI-powered code review platform that analyzes source code for security vulnerabilities, performance issues, maintainability concerns, and coding best practices using Google's Gemini AI. Features an interactive code editor, multiple review modes, animated AI workflows, syntax highlighting, and a modern SaaS-inspired UI.",
+  ss: "/gallery/Projects/codeguardian.png",
+  tech: [
+    "React.js",
+    "Vite",
+    "Node.js",
+    "Express.js",
+    "Gemini AI",
+    "Framer Motion",
+    "PrismJS",
+    "Render",
+    "Vercel"
+  ],
+  live: "https://codeguardian-orpin.vercel.app",
+  code: "https://github.com/akashgupta0123/CodeGuardian"
+}
+  {
     title: "🌐 Portfolio Website",
     category: "Frontend Development",
     desc: "A modern responsive portfolio website designed to showcase projects, skills, certifications, and contact information with interactive UI and smooth animations.",
