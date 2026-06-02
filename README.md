@@ -14,19 +14,19 @@ This portfolio showcases my projects, technical skills, certifications, resume, 
 
 ### Home Page
 
-<img width="1900" alt="Home" src="YOUR_SCREENSHOT_LINK">
+<img width="1920" height="1080" alt="Screenshot 2026-06-02 095230" src="https://github.com/user-attachments/assets/d1ad99fe-85a4-4be0-94af-2df629029a2a" />
 
 ### Projects Section
 
-<img width="1900" alt="Projects" src="YOUR_SCREENSHOT_LINK">
+<img width="1920" height="1080" alt="Screenshot 2026-06-02 143031" src="https://github.com/user-attachments/assets/1e64db13-fcdd-4821-bb4f-46fe5b9f291d" />
 
 ### Certificates Section
 
-<img width="1900" alt="Certificates" src="YOUR_SCREENSHOT_LINK">
+<img width="1920" height="1080" alt="Screenshot 2026-06-02 095325" src="https://github.com/user-attachments/assets/4cbeb1e3-caf6-4e9b-af06-8874132a2063" />
 
 ### Blog Section
 
-<img width="1900" alt="Blog" src="YOUR_SCREENSHOT_LINK">
+<img width="1920" height="1080" alt="Screenshot 2026-06-02 095456" src="https://github.com/user-attachments/assets/8c427023-3252-4a05-9c19-7075a408252f" />
 
 ---
 
