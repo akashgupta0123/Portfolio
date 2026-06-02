@@ -4,7 +4,7 @@ Welcome to my personal portfolio website built with **React.js**, **TypeScript**
 
 This portfolio showcases my projects, technical skills, certifications, resume, gallery, blog articles, and development journey as a passionate **Full Stack Web Developer** focused on **MERN Stack Development, Artificial Intelligence, and Machine Learning**.
 
-🌐 **Live Website:** [Portfolio Website](https://your-portfolio-link.com)
+🌐 **Live Website:** [Portfolio Website](https://akash-kumar-gupta-portfolio.vercel.app/)
 
 ---
 
