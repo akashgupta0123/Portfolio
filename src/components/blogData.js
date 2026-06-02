@@ -396,7 +396,7 @@ The best developers are not just good coders — they are good problem solvers, 
   {
 id: 4,
 title: "Building CodeGuardian — My Journey Creating an AI-Powered Code Review Platform",
-image: "/gallery/Projects/codeguardian.png",
+image: "/gallery/Projects/CodeGuardian.png",
 category: "AI Project",
 date: "June 2, 2026",
 readTime: "8 min read",
