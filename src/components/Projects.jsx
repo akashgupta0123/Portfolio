@@ -16,8 +16,8 @@ const PROJECTS = [
   {
   title: "🛡️ CodeGuardian",
   category: "AI Full Stack Project",
-  desc: "An AI-powered code review platform that analyzes source code for security vulnerabilities, performance issues, maintainability concerns, and coding best practices using Google's Gemini AI. Features an interactive code editor, multiple review modes, animated AI workflows, syntax highlighting, and a modern SaaS-inspired UI.",
-  ss: "/gallery/Projects/codeguardian.png",
+  desc: "An AI-powered code review platform that analyzes source code for security issues, performance bottlenecks, maintainability concerns, and coding best practices using Gemini AI.",
+  ss: "/gallery/Projects/CodeGuardian.png",
   tech: [
     "React.js",
     "Vite",
@@ -31,7 +31,7 @@ const PROJECTS = [
   ],
   live: "https://codeguardian-orpin.vercel.app",
   code: "https://github.com/akashgupta0123/CodeGuardian"
-}
+},
   {
     title: "🌐 Portfolio Website",
     category: "Frontend Development",
@@ -42,12 +42,36 @@ const PROJECTS = [
     code: "https://github.com/akashgupta0123",
   },
   {
+  title: "🌦️ Weather App",
+  category: "API Integration Project",
+  desc: "A modern weather forecasting application that fetches real-time weather data using external APIs. Features location-based search, current weather conditions, temperature forecasts, humidity tracking, wind speed monitoring, and a responsive user experience.",
+  ss: "/gallery/Projects/Weather.png",
+  tech: [
+    "React.js",
+    "JavaScript",
+    "CSS3",
+    "REST API",
+    "OpenWeather API"
+  ],
+  live: "https://react-weather-app-xj46.onrender.com/",
+  code: "https://github.com/akashgupta0123/weather-app"
+},
+{
+  title: "📋 TaskFlow - Task Management App",
+  category: "Frontend Development",
+  desc: "A responsive task management application designed to help users organize tasks, track progress, and improve productivity through an intuitive and modern user interface.",
+  ss: "/gallery/Projects/task.png",
+  tech: ["HTML", "CSS", "JavaScript", "Responsive Design"],
+  live: "https://task-flow-zp89.onrender.com",
+  code: "https://github.com/akashgupta0123"
+},
+  {
     title: "🧮 Calculator App",
     category: "Frontend Project",
     desc: "A responsive calculator application with modern UI, dark/light theme support, hover animations, and clean user interaction design.",
     ss: "/gallery/Projects/calculator.png",
     tech: ["HTML5", "CSS3", "JavaScript"],
-    live: "https://github.com/akashgupta0123",
+    live: "https://akash-calculator.onrender.com/",
     code: "https://github.com/akashgupta0123",
   },
   // {
@@ -59,15 +83,7 @@ const PROJECTS = [
   //   live: "https://github.com/akashgupta0123",
   //   code: "https://github.com/akashgupta0123",
   // },
-  {
-  title: "📋 TaskFlow - Task Management App",
-  category: "Frontend Development",
-  desc: "A responsive task management application designed to help users organize tasks, track progress, and improve productivity through an intuitive and modern user interface.",
-  ss: "/gallery/Projects/task.png",
-  tech: ["HTML", "CSS", "JavaScript", "Responsive Design"],
-  live: "https://task-flow-zp89.onrender.com",
-  code: "https://github.com/akashgupta0123"
-},
+  
 ];
 
 export default function Projects() {

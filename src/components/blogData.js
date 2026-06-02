@@ -392,4 +392,286 @@ If you are a developer who has never joined a hackathon, sign up for the next on
 The best developers are not just good coders — they are good problem solvers, communicators, and builders. Hackathons train all three.
     `,
   },
+
+  {
+id: 4,
+title: "Building CodeGuardian — My Journey Creating an AI-Powered Code Review Platform",
+image: "/gallery/Projects/codeguardian.png",
+category: "AI Project",
+date: "June 2, 2026",
+readTime: "8 min read",
+shortDesc:
+"The story behind CodeGuardian — an AI-powered code review platform that analyzes source code for security vulnerabilities, performance issues, maintainability concerns, and coding best practices using Google's Gemini AI.",
+
+techStack: ["React.js", "Node.js", "Express.js", "Gemini AI", "Framer Motion", "PrismJS"],
+
+skills: ["AI Integration", "Full Stack Development", "UI/UX Design", "Problem Solving"],
+
+github: "https://github.com/akashgupta0123/CodeGuardian",
+
+demo: "https://codeguardian-orpin.vercel.app",
+
+content: `
+
+## Why I Built CodeGuardian
+
+As a student developer, I often faced the same problem after completing a project:
+
+"How good is my code really?"
+
+The application might work perfectly, but that doesn't mean the code is secure, scalable, or maintainable.
+
+Professional developers usually have senior engineers who review their pull requests and provide feedback. As students and independent developers, we often don't have that luxury.
+
+That idea led me to create CodeGuardian.
+
+The goal was simple:
+
+**Build an AI-powered platform that acts like a senior software engineer and reviews code automatically.**
+
+---
+
+## The Initial Idea
+
+At first, the project was very basic.
+
+The user could:
+
+* Paste code
+* Click a review button
+* Receive AI-generated feedback
+
+Technically it worked.
+
+But the experience felt like a simple API wrapper.
+
+I wanted something that felt like a real product rather than a college assignment.
+
+That became the biggest challenge of the entire project.
+
+---
+
+## Defining the Vision
+
+Before writing more code, I defined what CodeGuardian should actually be.
+
+I wanted users to feel like they were interacting with a professional AI engineering tool.
+
+Not just another chatbot.
+
+The platform needed to:
+
+* Analyze code quality
+* Detect security vulnerabilities
+* Suggest performance improvements
+* Recommend best practices
+* Provide maintainability feedback
+* Present results in a professional way
+
+Most importantly, the product needed to look and feel premium.
+
+---
+
+## Choosing the Tech Stack
+
+I selected technologies that would allow rapid development while maintaining scalability.
+
+Frontend:
+
+* React.js
+* Vite
+* Framer Motion
+* PrismJS
+* React Markdown
+
+Backend:
+
+* Node.js
+* Express.js
+
+AI Layer:
+
+* Google Gemini API
+
+Deployment:
+
+* Vercel
+* Render
+
+This stack allowed me to focus on product experience while leveraging modern development tools.
+
+---
+
+## Building the Frontend
+
+The first version of the UI was extremely simple.
+
+It contained:
+
+* A code editor
+* A review button
+* An output section
+
+It worked, but it lacked personality.
+
+The platform did not feel like an AI product.
+
+So I redesigned the entire interface.
+
+The new version included:
+
+* Modern SaaS-inspired layout
+* Glassmorphism effects
+* Dark professional theme
+* Animated transitions
+* Interactive score cards
+* Syntax-highlighted editor
+
+The goal was to create an interface that users would immediately trust.
+
+---
+
+## Creating the AI Review Workflow
+
+One challenge was handling AI response times.
+
+Nobody enjoys staring at a blank screen while waiting for an API response.
+
+Instead of using a generic loading spinner, I designed a multi-step review workflow.
+
+The system now simulates an AI analysis process:
+
+* Initializing CodeGuardian
+* Analyzing Code Structure
+* Checking Security Vulnerabilities
+* Evaluating Performance
+* Generating Recommendations
+
+This small change dramatically improved the user experience.
+
+Users felt like the system was actively reviewing their code rather than simply waiting for an API response.
+
+---
+
+## Integrating Gemini AI
+
+The most critical part of the platform was connecting it to Google's Gemini API.
+
+I designed a detailed system prompt that instructs Gemini to behave like a senior software engineer with years of experience.
+
+The AI reviews code based on:
+
+* Security
+* Performance
+* Maintainability
+* Readability
+* Best Practices
+* Scalability
+
+Instead of generic answers, the platform generates structured developer-focused feedback.
+
+This transformed CodeGuardian from a simple chatbot into a practical engineering tool.
+
+---
+
+## Challenges I Faced
+
+No project is built without problems.
+
+One of the biggest issues was API authentication.
+
+I spent considerable time debugging API keys, environment variables, deployment settings, and authorization errors.
+
+Another challenge was rate limiting.
+
+The Gemini free tier allows only a limited number of requests.
+
+When the limit was exceeded, users were presented with ugly backend errors.
+
+This forced me to rethink error handling and create a better user experience for API failures.
+
+Deployment also introduced new challenges.
+
+What worked perfectly on localhost sometimes behaved differently in production environments.
+
+Debugging Vercel, Render, environment variables, and CORS configurations taught me valuable lessons about real-world deployment.
+
+---
+
+## What I Learned
+
+This project taught me far more than React or Node.js.
+
+I learned:
+
+**1. User Experience Matters**
+
+A technically correct application can still feel unfinished if the user experience is poor.
+
+The difference between a student project and a professional product is often the attention given to UX.
+
+**2. Deployment Is Part of Development**
+
+Building locally is only half the job.
+
+Deploying, debugging production issues, and managing environment variables are essential development skills.
+
+**3. AI Is a Tool, Not the Product**
+
+Many developers simply wrap an AI model inside a UI.
+
+The real challenge is creating a meaningful experience around that AI.
+
+**4. Design Influences Trust**
+
+Users judge a product within seconds.
+
+A polished interface instantly makes the application feel more credible.
+
+---
+
+## Future Plans
+
+CodeGuardian is not finished.
+
+There are several features I plan to add in future versions:
+
+* Review History
+* Authentication System
+* Export Reviews as PDF
+* Saved Analysis Reports
+* Dark and Light Themes
+* Advanced Metrics Dashboard
+* Repository Analysis
+* GitHub Integration
+* Improved Error Handling
+* AI Model Fallback Support
+
+The current version is the foundation.
+
+The future goal is to evolve CodeGuardian into a complete AI-assisted engineering platform.
+
+---
+
+## Final Thoughts
+
+CodeGuardian started as a simple idea:
+
+"What if developers could have an AI senior engineer reviewing their code?"
+
+What began as a small experiment became one of the most ambitious projects I have built.
+
+More than the technology itself, the project taught me how to think like a product builder.
+
+It forced me to focus not only on functionality but also on usability, deployment, design, and user experience.
+
+For me, CodeGuardian is more than a portfolio project.
+
+It represents my growth as a developer and my ability to turn an idea into a real product that people can use.
+
+And honestly, that's the most valuable lesson of all.
+,
+`
+},
+
 ];

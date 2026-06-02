@@ -362,13 +362,19 @@ export function Resume() {
 
           <ul className="project-list">
             {[
-              "CollabZone — Full Stack MERN influencer collaboration platform",
+              [
+                "🛡️ CodeGuardian — AI-powered code review and security analysis platform",
 
-              "Portfolio Website — Built with React.js and TypeScript",
+                "🤝 CollabZone — MERN-based brand and influencer collaboration platform",
 
-              "Calculator App — Responsive UI with dark/light theme support",
+                "📋 Task Manager — Productivity application for task tracking, prioritization, and workflow management",
 
-              "Frontend UI/UX Projects — Responsive layouts and interface designs",
+                "🌦️ Weather App — Real-time weather dashboard with API integration",
+
+                "🌐 Portfolio Website — Responsive personal portfolio built with React.js",
+
+                "🧮 Calculator App — Modern calculator with theme switching and animations",
+              ]
             ].map((project, i) => (
               <motion.li
                 key={i}
